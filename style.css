@@ -1,5 +1,5 @@
 body{
-    backgound-color: #5C1D41;
+    background-color: #D46A6A;
     font-family: Lato, Arial, Helvetica, sans-serif;
     font-weight: 150;
     font-size: 16px;
@@ -7,18 +7,64 @@ body{
     padding: 0;
 }
 
-h1, h2, h3{
+h1, h2{
     padding-top: 14px;
 }
 
 h1{ font-size: 30px; }
 
+h2{ 
+	position: relative;
+}
+
 p{
     padding-bottom: 10px;
+}
+
+ul{
+	list-style-type: none;
+	border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li{
+	display: inline;
+}
+
+/*-- Link Styles --*/
+a:link {
+  color:#FFCCCC;
+  font-weight: 350;
+}
+
+a:visited {
+  color: #FCA5A5;
+}
+
+a:hover {
+  color: #AA3939;
+}
+
+a:active {
+  background-color: #7D1313;
+  color: #9F408A;
+} 
+
+#gallery img{
+  width: 450px;
+  height: auto;
+  background-color: #374140;
+  color: #D9CB9E;
 }
 
 header{
     padding: 0 14%;
     text-align: center;
     padding-bottom: 20px;
+}
+
+/*-- Footer Styles --*/
+footer {
+  background-color: #8A317D;
+  color: #676767;
 }
